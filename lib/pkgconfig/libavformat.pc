@@ -1,0 +1,14 @@
+prefix=/home/akagi201/libs-dm365
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 56.7.101
+Requires: libavcodec >= 56.1.101, libswresample >= 1.1.100, libavutil >= 54.7.101
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lx264 -laacplus -lm -lz -pthread -ldl
+Libs.private: 
+Cflags: -I${includedir}
