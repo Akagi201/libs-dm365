@@ -7,6 +7,8 @@ This repo is just for a backup for myself.
 
 ## TODO
 * --enable-librtmp support failed.
+* too big for embedded system.
+* ffmpeg is not built with static libs.
 
 ## note for reference
 * <https://gist.github.com/Akagi201/1f6fe5ff5b9b76c643af>
